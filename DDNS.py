@@ -24,7 +24,7 @@ while True:
     else:
         wirte_to_file("./ip", "0.0.0.0")
 
-    client = AcsClient('LTAI4G3PiidWoszTkEpC9DL8', '7Dx8BPqiy0Tyq822mPDMYEKmrT7SOt', 'cn-hangzhou')
+    client = AcsClient('XXXXXXXXXXXXXXXXX', 'XXXXXXXXXXXXXXXXXXXXX', 'cn-hangzhou')
 
     # 通过函数获取外网ip
     ip = get_internet_ip()
